@@ -1,2 +1,2 @@
-# FaceAttendance
-Taking attendance using Face recognition
+# Face Recognition Attendance Management System
+The Face Recognition Attendance Management System is an advanced technological solution that automates attendance tracking using computer vision and machine learning techniques. By leveraging OpenCV's Local Binary Patterns Histogram (LBPH) algorithm, the system enables contactless, efficient, and accurate attendance recording through facial recognition, eliminating manual tracking methods and providing a seamless approach to monitoring human presence in educational, corporate, and organizational environments.
