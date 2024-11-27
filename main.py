@@ -39,7 +39,7 @@ class AttendanceManagementSystem:
     def __init__(self, root):
         self.root = root
         self.root.title("Attendance Management System")
-        self.root.geometry("400x300")
+        self.root.geometry("400x300+50+50")
 
         # Create directories if they don't exist
         os.makedirs("photos", exist_ok=True)
@@ -70,7 +70,7 @@ class AttendanceManagementSystem:
         # Open a new window for adding a person
         add_person_window = tk.Toplevel(self.root)
         add_person_window.title("Add New Person")
-        add_person_window.geometry("400x200")
+        add_person_window.geometry("400x300+50+50")
 
         # Enter name
         tk.Label(add_person_window, text="Enter Name:", font=("Arial", 12)).pack(pady=10)
@@ -94,7 +94,7 @@ class AttendanceManagementSystem:
         # Open attendance taking window
         attendance_window = tk.Toplevel(self.root)
         attendance_window.title("Take Attendance")
-        attendance_window.geometry("400x200")
+        attendance_window.geometry("400x300+50+50")
 
         filename = "attendance(" + datetime.now().strftime("%d-%m-%Y_%H-%M") + ")"
 
